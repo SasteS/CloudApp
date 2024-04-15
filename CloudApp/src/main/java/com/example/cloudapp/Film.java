@@ -1,8 +1,9 @@
 package com.example.cloudapp;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "sv_7_2021")
 public class Film {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
